@@ -1,0 +1,142 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #2c3145;
+}
+h4 a{
+    text-decoration: none;
+    color:#00a524;
+}
+h4 a:hover{
+    text-decoration: underline;
+}
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.section_all {
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 100vh;
+}
+.section-title {
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+}
+
+.section-subtitle {
+    letter-spacing: 0.4px;
+    line-height: 28px;
+    max-width: 550px;
+}
+
+.section-title-border {
+    background-color: #000;
+    height: 1 3px;
+    width: 44px;
+}
+
+.section-title-border-white {
+    background-color: #fff;
+    height: 2px;
+    width: 100px;
+}
+.text_custom {
+    color: #00bd2a;
+    font-weight: 500;
+}
+
+.about_icon i {
+    font-size: 22px;
+    height: 65px;
+    width: 65px;
+    line-height: 65px;
+    display: inline-block;
+    background: #fff;
+    border-radius: 35px;
+    color: #00bd2a;
+    box-shadow: 0 8px 20px -2px rgba(158, 152, 153, 0.5);
+}
+
+.about_header_main .about_heading {
+    max-width: 450px;
+    font-size: 24px;
+}
+
+.about_icon span {
+    position: relative;
+    top: -10px;
+}
+
+.about_content_box_all {
+    padding: 28px;
+}
+
+
+.appstore-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 12px;
+    border: 3px solid rgb(189, 189, 189);
+    background-color: rgb(15, 15, 15);
+    border-radius: 15px;
+    gap: 5px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0px 0px 100px -30px rgb(255, 255, 255);
+    width: 300px;
+    margin: auto;
+  }
+  .appstore-button .fa-app-store-ios,.fa-google-play {
+    font-size: 45px;
+    padding: 0 10px;
+    color: white;
+
+  }
+  .appstore-button:hover .fa-app-store-ios{
+    color: #000;
+  }
+  .appstore-button:hover .fa-google-play{
+    color: #000;
+  }
+  .button-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    color: white;
+    transition: all 0.3s;
+  }
+  .top-text {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  .bottom-text {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .appstore-button:hover {
+    background-color: rgb(236, 236, 236);
+    border: 3px solid rgb(138, 138, 138);
+  }
+  .appstore-button:hover .button-text {
+    color: black;
+  }
+
+@media screen and (max-width: 768px) {
+    .text_custom {
+        font-size: 11px;
+        font-weight: 700;
+    }
+    
+  }
